@@ -249,7 +249,7 @@ const ContactRoom = ({ showRoom, onReady, isExiting, isWarmup }) => {
 
     const handleMailSelect = () => {
         // Direct contact via mailto:
-        window.location.href = 'mailto:developer@noolandcrop.in';
+        window.location.href = 'mailto:premfxexe@gmail.com';
 
         /* 
         setShowSelection(false);
@@ -408,37 +408,37 @@ const ContactRoom = ({ showRoom, onReady, isExiting, isWarmup }) => {
                 paintOnBeforeCompile={onBeforeCompile}
                 paintUniforms={uniformsData}
             />
-            {/* CLOUDASPIRE */}
+            {/* LINKEDIN */}
             <SocialBarrel
                 position={isMobile ? [-1.5, -0.3, -7] : [-5, -0.3, -8]}
                 rotation={[0, 0.3, 0]}
                 texturePath="/textures/contact/beczka.webp"
-                label="SOLUTIONS"
-                onClick={() => window.open('https://cloudaspiresolutions.in', '_blank')}
+                label="LINKEDIN"
+                onClick={() => window.open('https://www.linkedin.com/in/prem-kumar-b33000448', '_blank')}
                 paintOnBeforeCompile={onBeforeCompile}
                 paintUniforms={uniformsData}
             />
-            {/* NAMMAHSPOT */}
+            {/* YOUTUBE */}
             <SocialBarrel
                 position={isMobile ? [1.2, 0.5, -10] : [3, 0.5, -10]}
                 rotation={[0, -0.2, 0]}
                 texturePath="/textures/contact/beczka.webp"
-                label="NAMMAHSPOT"
-                onClick={() => window.open('https://nammahspot.in/', '_blank')}
+                label="YOUTUBE"
+                onClick={() => window.open('https://youtube.com/@prem_dev_x?si=_XZ9Ztw9n5Pue4hy', '_blank')}
                 paintOnBeforeCompile={onBeforeCompile}
                 paintUniforms={uniformsData}
             />
-            {/* STOREFRONT */}
+            {/* INSTAGRAM */}
             <SocialBarrel
                 position={isMobile ? [1.5, -0.3, -7] : [5, -0.3, -8]}
                 rotation={[0, -0.3, 0]}
                 texturePath="/textures/contact/beczka.webp"
-                label="STOREFRONT"
-                onClick={() => window.open('https://noolandcrop.in/', '_blank')}
+                label="INSTAGRAM"
+                onClick={() => window.open('https://www.instagram.com/premfx.exe', '_blank')}
                 paintOnBeforeCompile={onBeforeCompile}
                 paintUniforms={uniformsData}
             />
-            {/* EMAIL / MESSAGE */}
+            {/* EMAIL */}
             <SocialBarrel
                 position={isMobile ? [0, -0.7, -6] : [0, -0.7, -7]}
                 rotation={[0, 0, 0]}

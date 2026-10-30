@@ -118,7 +118,14 @@ const ScreenReaderOverlay = () => {
                         {currentRoom === 'contact' && (
                             <div aria-label="Contact room content">
                                 <h3>Contact Me</h3>
-                                <p>Find my genuine social media and project links displayed as floating barrels. Click to visit my GitHub, platforms, and email.</p>
+                                <p>Find my contact channels and social media profiles displayed as floating barrels:</p>
+                                <ul>
+                                    <li><a href="https://github.com/premdevexe" target="_blank" rel="noopener noreferrer">GitHub Profile (premdevexe)</a></li>
+                                    <li><a href="https://www.linkedin.com/in/prem-kumar-b33000448" target="_blank" rel="noopener noreferrer">LinkedIn Profile (Prem Kumar)</a></li>
+                                    <li><a href="https://youtube.com/@prem_dev_x?si=_XZ9Ztw9n5Pue4hy" target="_blank" rel="noopener noreferrer">YouTube Channel (@prem_dev_x)</a></li>
+                                    <li><a href="https://www.instagram.com/premfx.exe" target="_blank" rel="noopener noreferrer">Instagram (@premfx.exe)</a></li>
+                                    <li><a href="mailto:premfxexe@gmail.com">Email (premfxexe@gmail.com)</a></li>
+                                </ul>
                             </div>
                         )}
                         {currentRoom === 'studio' && (

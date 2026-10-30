@@ -102,8 +102,9 @@ function buildJsonLd(globalInfo, projects, studio, awards, faqList) {
         ],
         sameAs: [
             globalInfo?.githubUrl || 'https://github.com/premdevexe',
-            globalInfo?.linkedinUrl,
-            globalInfo?.instagramUrl,
+            globalInfo?.linkedinUrl || 'https://www.linkedin.com/in/prem-kumar-b33000448',
+            globalInfo?.youtubeUrl || 'https://youtube.com/@prem_dev_x?si=_XZ9Ztw9n5Pue4hy',
+            globalInfo?.instagramUrl || 'https://www.instagram.com/premfx.exe',
             globalInfo?.xUrl,
         ].filter(Boolean)
     };
@@ -221,6 +222,13 @@ function buildLlmsTxt(globalInfo, projects, studio, awards, faqList) {
     content += `- **Digital Marketing:** Social Media Marketing (SMM), Content Strategy, Digital Branding, Google Ads.\n`;
     content += `- **Tools:** Git, GitHub, XAMPP, phpMyAdmin, Vercel, Railway, Render.\n\n`;
 
+    content += `## Contact & Profiles\n`;
+    content += `- GitHub: https://github.com/premdevexe\n`;
+    content += `- LinkedIn: https://www.linkedin.com/in/prem-kumar-b33000448\n`;
+    content += `- YouTube: https://youtube.com/@prem_dev_x?si=_XZ9Ztw9n5Pue4hy\n`;
+    content += `- Instagram: https://www.instagram.com/premfx.exe\n`;
+    content += `- Email: premfxexe@gmail.com\n\n`;
+
     content += `## Selected Portfolio Projects\n`;
     activeProjects.forEach(p => {
         const tech = p.techStack ? ` (Tech: ${p.techStack.map(t => TECH_STACK_NAMES[t] || t).join(', ')})` : '';
@@ -331,7 +339,10 @@ export function generateSeoHtml() {
                 seoHtml += `    <h2>About Prem Kumar</h2>\n`;
                 seoHtml += `    <p>${aboutMe}</p>\n`;
                 seoHtml += `    <a href="${globalInfo?.githubUrl || 'https://github.com/premdevexe'}">GitHub</a>\n`;
-                if (globalInfo?.linkedinUrl) seoHtml += `    <a href="${globalInfo.linkedinUrl}">LinkedIn</a>\n`;
+                seoHtml += `    <a href="${globalInfo?.linkedinUrl || 'https://www.linkedin.com/in/prem-kumar-b33000448'}">LinkedIn</a>\n`;
+                seoHtml += `    <a href="${globalInfo?.youtubeUrl || 'https://youtube.com/@prem_dev_x?si=_XZ9Ztw9n5Pue4hy'}">YouTube</a>\n`;
+                seoHtml += `    <a href="${globalInfo?.instagramUrl || 'https://www.instagram.com/premfx.exe'}">Instagram</a>\n`;
+                seoHtml += `    <a href="mailto:premfxexe@gmail.com">Email</a>\n`;
                 seoHtml += `  </section>\n`;
 
                 seoHtml += `  <section id="projects">\n    <h2>Projects</h2>\n    <ul>\n`;
