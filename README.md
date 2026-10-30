@@ -27,7 +27,7 @@ Welcome to the interactive 3D developer portfolio of **Prem Kumar** — Develope
   - Digital Marketing Professional
   - SMM Professional
 - **Location:** Puducherry, India
-- **GitHub:** [github.com/priyakutti920](https://github.com/priyakutti920)
+- **GitHub:** [github.com/premdevexe](https://github.com/premdevexe)
 
 ---
 

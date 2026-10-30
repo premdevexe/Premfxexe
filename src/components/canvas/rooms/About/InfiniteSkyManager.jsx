@@ -420,7 +420,7 @@ const AWARDS_DATA = {
         title: 'Full-Stack & Laravel Engineering',
         items: [
             { label: 'Laravel & PHP Architecture', date: 'Core Specialty', image: '/textures/gallery/nammahspot_painted.webp', url: 'https://nammahspot.in/' },
-            { label: 'REST API & Gateway Design', date: 'Infrastructure', image: '/textures/gallery/opuszen_painted.webp', url: 'https://github.com/priyakutti920/opuszyra' },
+            { label: 'REST API & Gateway Design', date: 'Infrastructure', image: '/textures/gallery/opuszen_painted.webp', url: 'https://github.com/premdevexe/opuszyra' },
             { label: 'Modern Frontend & 3D React', date: 'Interface', image: '/textures/gallery/cloudaspire_painted.webp', url: 'https://cloudaspiresolutions.in' },
             { label: 'Database Optimization & SQL', date: 'Data Layer', image: '/textures/gallery/noolandcrop_painted.webp', url: 'https://noolandcrop.in/' }
         ],

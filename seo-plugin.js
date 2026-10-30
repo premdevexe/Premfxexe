@@ -43,28 +43,28 @@ const DEFAULT_PROJECTS = [
         title: 'Cloudaspire',
         seoTitle: 'Cloudaspire — Web Solutions & Digital Marketing',
         description: 'Digital solutions provider in Puducherry specializing in website development, technical SEO, local SEO, and digital growth marketing.',
-        url: 'https://github.com/priyakutti920',
+        url: 'https://github.com/premdevexe',
         techStack: ['Web Development', 'Technical SEO', 'Local SEO', 'SMM']
     },
     {
         title: 'OpusZen',
         seoTitle: 'OpusZen — API Gateway Architecture',
         description: 'API and technology platform focusing on API gateway architecture, provider integrations, backend services, and secure API authentication.',
-        url: 'https://github.com/priyakutti920',
+        url: 'https://github.com/premdevexe',
         techStack: ['Node.js', 'Express', 'API Gateway', 'REST APIs']
     },
     {
         title: 'The Flash Provider',
         seoTitle: 'The Flash Provider — SMM Management Platform',
         description: 'Social media marketing platform providing automated growth services, service management, and multi-provider dispatch.',
-        url: 'https://github.com/priyakutti920',
+        url: 'https://github.com/premdevexe',
         techStack: ['Full-Stack', 'SMM', 'Service Management']
     },
     {
         title: 'Nura City',
         seoTitle: 'Nura City — City & Local Discovery Platform Concept',
         description: 'A digital city platform concept focused on local information, businesses, municipal services, and location-based discovery.',
-        url: 'https://github.com/priyakutti920',
+        url: 'https://github.com/premdevexe',
         techStack: ['React', 'Tailwind CSS', 'Location Discovery']
     }
 ];
@@ -101,7 +101,7 @@ function buildJsonLd(globalInfo, projects, studio, awards, faqList) {
             'Technical SEO', 'Local SEO', 'Structured Data', 'SMM', 'Digital Marketing'
         ],
         sameAs: [
-            globalInfo?.githubUrl || 'https://github.com/priyakutti920',
+            globalInfo?.githubUrl || 'https://github.com/premdevexe',
             globalInfo?.linkedinUrl,
             globalInfo?.instagramUrl,
             globalInfo?.xUrl,
@@ -224,14 +224,14 @@ function buildLlmsTxt(globalInfo, projects, studio, awards, faqList) {
     content += `## Selected Portfolio Projects\n`;
     activeProjects.forEach(p => {
         const tech = p.techStack ? ` (Tech: ${p.techStack.map(t => TECH_STACK_NAMES[t] || t).join(', ')})` : '';
-        content += `- [${p.seoTitle || p.title}](${p.url || 'https://github.com/priyakutti920'}): ${p.seoDescription || p.description || ''}${tech}\n`;
+        content += `- [${p.seoTitle || p.title}](${p.url || 'https://github.com/premdevexe'}): ${p.seoDescription || p.description || ''}${tech}\n`;
     });
     content += `\n`;
 
     if (studio && studio.length > 0) {
         content += `## Studio Content & Case Studies\n`;
         studio.forEach(s => {
-            content += `- [${s.seoTitle || s.title} (${s.platform})](${s.url || 'https://github.com/priyakutti920'}): ${s.seoDescription || s.description || ''}\n`;
+            content += `- [${s.seoTitle || s.title} (${s.platform})](${s.url || 'https://github.com/premdevexe'}): ${s.seoDescription || s.description || ''}\n`;
         });
         content += `\n`;
     }
@@ -330,7 +330,7 @@ export function generateSeoHtml() {
                 seoHtml += `  <section id="about">\n`;
                 seoHtml += `    <h2>About Prem Kumar</h2>\n`;
                 seoHtml += `    <p>${aboutMe}</p>\n`;
-                seoHtml += `    <a href="${globalInfo?.githubUrl || 'https://github.com/priyakutti920'}">GitHub</a>\n`;
+                seoHtml += `    <a href="${globalInfo?.githubUrl || 'https://github.com/premdevexe'}">GitHub</a>\n`;
                 if (globalInfo?.linkedinUrl) seoHtml += `    <a href="${globalInfo.linkedinUrl}">LinkedIn</a>\n`;
                 seoHtml += `  </section>\n`;
 

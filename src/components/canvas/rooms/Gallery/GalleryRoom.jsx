@@ -67,7 +67,7 @@ const FALLBACK_PROJECTS = [
         title: 'OPUSZEN',
         front: '/textures/gallery/opuszen_front.webp',
         painted: '/textures/gallery/opuszen_painted.webp',
-        url: 'https://github.com/priyakutti920/opuszyra',
+        url: 'https://github.com/premdevexe/opuszyra',
         description: 'An API gateway and backend technology platform featuring secure provider integrations, resilient microservices communication, token-based authentication, and modern web infrastructure designed for high throughput.',
         techStack: ['/textures/gallery/jslogo.webp', '/textures/gallery/reactlogo.webp', '/textures/gallery/tailwindlogo.webp', '/textures/gallery/netlifylogo.webp']
     },

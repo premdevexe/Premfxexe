@@ -162,7 +162,7 @@ async function generatePhoneTexture(baseFile, logoFile, title, subtitle, tag, co
         <rect x="${Math.round(50 * scale)}" y="${Math.round(780 * scale)}" width="${Math.round(644 * scale)}" height="${Math.round(220 * scale)}" rx="${Math.round(16 * scale)}" fill="#ffffff" fill-opacity="0.8" stroke="#333" stroke-width="${Math.max(1, Math.round(3 * scale))}" stroke-dasharray="${Math.round(8 * scale)},${Math.round(6 * scale)}" />
         <text x="${Math.round(372 * scale)}" y="${Math.round(850 * scale)}" font-family="Cabin Sketch, sans-serif" font-size="${Math.round(30 * scale)}" font-weight="bold" fill="#0f172a" text-anchor="middle">"Building Digital Experiences</text>
         <text x="${Math.round(372 * scale)}" y="${Math.round(895 * scale)}" font-family="Cabin Sketch, sans-serif" font-size="${Math.round(30 * scale)}" font-weight="bold" fill="#0f172a" text-anchor="middle">That Perform, Rank &amp; Grow."</text>
-        <text x="${Math.round(372 * scale)}" y="${Math.round(955 * scale)}" font-family="Cabin Sketch, sans-serif" font-size="${Math.round(24 * scale)}" fill="#64748b" text-anchor="middle">github.com/priyakutti920</text>
+        <text x="${Math.round(372 * scale)}" y="${Math.round(955 * scale)}" font-family="Cabin Sketch, sans-serif" font-size="${Math.round(24 * scale)}" fill="#64748b" text-anchor="middle">github.com/premdevexe</text>
         
         <g transform="translate(${Math.round(70 * scale)}, ${Math.round(1060 * scale)})">
           <rect x="0" y="0" width="${Math.round(280 * scale)}" height="${Math.round(60 * scale)}" rx="${Math.round(30 * scale)}" fill="#e2e8f0" stroke="#333" stroke-width="2" />
